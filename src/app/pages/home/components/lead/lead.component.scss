@@ -1,0 +1,65 @@
+@import '../../../../../mixin.scss';
+
+.lead {
+    &__image {
+        img {
+            width: 100%;
+            height: 30rem;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.4rem;
+
+        @media (min-width: 998px) {
+            flex-direction: row;
+            margin-top: 2.8rem;
+        }
+    }
+
+    &__heading {
+        @include text-heading-l;
+        font-weight: bolder;
+        color: var(--primary-color-text);
+        width: 80%;
+
+        @media (min-width: 998px) {
+            @include text-heading-xl;
+            width: 60%;
+        }
+    }
+
+    &__information-action {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.6rem;
+        width: 100%;
+        
+        @media (min-width: 998px) {
+            width: 350px;
+            margin-top: 0;
+        }
+    }
+
+    &__body {
+        @include text-body;
+        color: var(--gray-color-text-500);
+        margin-bottom: 2.4rem;
+    }
+
+    &__cta {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        background: var(--accent-color-text);
+        color: var(--primary-inverse-color-text);
+        padding: 1.2rem 3rem;
+        width: 50%;
+
+        &:hover,
+        &:focus {
+            background: var(--primary-color-text);
+        }
+    }
+}

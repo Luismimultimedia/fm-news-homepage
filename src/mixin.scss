@@ -1,0 +1,40 @@
+@mixin container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+@mixin text-heading-xl {
+    font-weight: bolder;
+    font-size: 5.6rem;
+    line-height: 5.6rem;
+}
+
+@mixin text-heading-l {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+@mixin text-heading-m {
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+}
+
+@mixin text-heading-s {
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+@mixin text-heading-xs {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+@mixin text-body {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}

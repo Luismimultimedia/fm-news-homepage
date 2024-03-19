@@ -1,0 +1,16 @@
+@import '../../../mixin.scss';
+
+.main {
+    @include container;
+    width: 100%;
+    margin-top: 3.2rem;
+    padding: 0 1.6rem 1.6rem;
+
+    @media (min-width: 998px) {
+        margin-top: 5.5rem;
+    }
+
+    @media (min-width: 1110px) {
+        padding: 0 0 3rem;
+    }
+}

@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color-text: #00001A;
+    --primary-inverse-color-text: #FFFDFA;
+    --secondary-color-text: #E9AA52;
+    --accent-color-text: #F15D51;
+    --gray-color-text-500: #5E607A;
+    --gray-color-text-300: #C5C6CE;
+  
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  @font-face {
+    font-family: Inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  
+  button {
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+    outline: inherit;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }

@@ -1,0 +1,51 @@
+<nav class="header">
+    <img
+        class="header__logo"
+        src="../../../assets/images/logo.svg"
+        alt="Logo of the website, its a W letter"
+    />
+
+    <button
+        class="header__btn-menu--open"
+        (click)="onOpenMenu()"
+    >
+        <img
+            src="../../../assets/images/icon-menu.svg"
+            alt="Icon button to open the menu navigation"
+        />
+    </button>
+
+
+    <ul
+        #navigation
+        class="header__navigation"
+    >
+        <button
+            class="header__btn-menu--close"
+            (click)="onCloseMenu()"
+        >
+            <img
+                src="../../../assets/images/icon-menu-close.svg"
+                alt="Icon button to open the menu navigation"
+            />
+        </button>
+
+        <li class="header__navigation--list-item">
+            <a routerLink="/">Home</a>
+        </li>
+        <li class="header__navigation--list-item">
+            <a routerLink="/">New</a>
+        </li>
+        <li class="header__navigation--list-item">
+            <a routerLink="/">Popular</a>
+        </li>
+        <li class="header__navigation--list-item">
+            <a routerLink="/">Trending</a>
+        </li>
+        <li class="header__navigation--list-item">
+            <a routerLink="/">Categories</a>
+        </li>
+    </ul>
+
+    <div #overlay class="header__overlay"></div>
+</nav>

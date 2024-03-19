@@ -1,0 +1,11 @@
+.home {
+    &__headlines-updates {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6.4rem 3rem;
+
+        @media (min-width: 998px) {
+            grid-template-columns: 1fr 350px;
+        }
+    }
+}

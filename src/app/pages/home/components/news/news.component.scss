@@ -1,0 +1,52 @@
+@import '../../../../../mixin.scss';
+
+.news {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem 2.4rem;
+    background: var(--primary-color-text);
+
+    &__heading {
+        @include text-heading-l;
+        color: var(--secondary-color-text);
+    }
+
+    &__item {
+        position: relative;
+        padding: 3rem 0;
+        border-bottom: 1px solid var(--gray-color-text-500);
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        &--heading {
+            color: var(--primary-inverse-color-text);
+            margin-bottom: 0.8rem
+        }
+
+        &--body {
+            @include text-body;
+            color: var(--gray-color-text-300);
+        }
+
+        &--cta {
+            @include text-heading-s;
+            text-decoration: none;
+            color: inherit;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                inset: 0;
+                background: transparent;
+                z-index: 1;
+                cursor: pointer;
+            }
+
+            &:hover {
+                color: var(--secondary-color-text);
+            }
+        }
+    }
+}
