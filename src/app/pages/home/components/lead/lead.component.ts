@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import HomeData from '../../../../data/home-data.json';
+import { Lead } from '../../../../types/lead.interface';
 
 @Component({
   selector: 'app-lead',
@@ -8,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './lead.component.scss'
 })
 export class LeadComponent {
-
+  @Input() lead: Lead = HomeData?.lead;
 }

@@ -1,78 +1,92 @@
 {
     "lead": {
         "image": {
-            "xs": "./src/assets/images/image-web-3-mobile.jpg",
-            "lg": "./src/assets/images/image-web-3-desktop.jpg",
+            "xs": "../../../../assets/images/image-web-3-mobile.jpg",
+            "lg": "../../../../assets/images/image-web-3-desktop.jpg",
             "alt": "Geometric figure that represents the web 3.0"
         },
-        "heading": "The Bright Future of Web 3.0",
-        "body": "We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?",
-        "cta": {
-            "href": "www.google.com",
-            "title": "READ MORE"
+        "content": {
+            "heading": "The Bright Future of Web 3.0",
+            "body": "We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?",
+            "cta": {
+                "href": "https://www.google.com",
+                "title": "READ MORE"
+            }
         }
     },
     "topics": [
         {
             "image": {
-                "src": "./src/assets/images/image-retro-pcs.jpg",
+                "src": "../../../../assets/images/image-retro-pcs.jpg",
                 "alt": "Pc retro low poly"
             },
-            "heading": "Reviving Retro PCs",
-            "body": "What happens when old PCs are given modern upgrades?",
-            "cta": {
-                "href": "www.google.com",
-                "title": ""
+            "content": {
+                "heading": "Reviving Retro PCs",
+                "body": "What happens when old PCs are given modern upgrades?",
+                "cta": {
+                    "href": "https://www.google.com",
+                    "title": ""
+                }
             }
         },
         {
             "image": {
-                "src": "./src/assets/images/image-top-laptops.jpg",
+                "src": "../../../../assets/images/image-retro-pcs.jpg",
                 "alt": "Keyborad with red lights"
             },
-            "heading": "Top 10 Laptops of 2022",
-            "body": "Our best picks for various needs and budgets.",
-            "cta": {
-                "href": "www.google.com",
-                "title": ""
+            "content": {
+                "heading": "Top 10 Laptops of 2022",
+                "body": "Our best picks for various needs and budgets.",
+                "cta": {
+                    "href": "https://www.google.com",
+                    "title": ""
+                }
             }
         },
         {
             "image": {
-                "src": "./src/assets/images/image-gaming-growth.jpg",
+                "src": "../../../../assets/images/image-retro-pcs.jpg",
                 "alt": "A hand handling a play station control"
             },
-            "heading": "The Growth of Gaming",
-            "body": "The Growth of Gaming",
-            "cta": {
-                "href": "www.google.com",
-                "title": ""
+            "content": {
+                "heading": "The Growth of Gaming",
+                "body": "The Growth of Gaming",
+                "cta": {
+                    "href": "https://www.google.com",
+                    "title": ""
+                }
             }
         }
     ],
     "news": [
         {
-            "heading": "Hydrogen VS Electric Cars",
-            "body": "Will hydrogen-fueled cars ever catch up to EVs?",
-            "cta": {
-                "href": "www.google.com",
-                "title": ""
+            "content": {
+                "heading": "Hydrogen VS Electric Cars",
+                "body": "Will hydrogen-fueled cars ever catch up to EVs?",
+                "cta": {
+                    "href": "https://www.google.com",
+                    "title": ""
+                }
             }
         },
         {
-            "heading": "The Downsides of AI Artistry",
-            "body": "What are the possible adverse effects of on-demand AI image generation?",
-            "cta": {
-                "href": "www.google.com",
-                "title": ""
+            "content": {
+                "heading": "The Downsides of AI Artistry",
+                "body": "What are the possible adverse effects of on-demand AI image generation?",
+                "cta": {
+                    "href": "https://www.google.com",
+                    "title": ""
+                }
             }
         },
         {
-            "heading": "Is VC Funding Drying Up?",
-            "body": "Private funding by VC firms is down 50% YOY. We take a look at what that means.",
-            "cta": {
-                "href": "www.google.com",
-                "title": ""
+            "content": {
+                "heading": "Is VC Funding Drying Up?",
+                "body": "Private funding by VC firms is down 50% YOY. We take a look at what that means.",
+                "cta": {
+                    "href": "https://www.google.com",
+                    "title": ""
+                }
             }
         }
     ]

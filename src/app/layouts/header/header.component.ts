@@ -1,25 +1,23 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
-  @ViewChild('navigation') navigation!:ElementRef;
-  @ViewChild('overlay') overlay!:ElementRef;
+  @Input()
+  openMenu: Boolean = false;
 
   onOpenMenu() {
-    this.navigation.nativeElement.style.display = "flex";
-    this.overlay.nativeElement.style.display = "block";
+    this.openMenu = true;
   }
 
   onCloseMenu() {
-    this.navigation.nativeElement.style.display = "none";
-    this.overlay.nativeElement.style.display = "none";
+    this.openMenu = false;
   }
 
 }
